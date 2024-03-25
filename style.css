@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width:  300px;
+    height: 300px;
+    /* object-fit: cover; */
+}
+body {
+    background-color: #6fade6;
+    font-family: Arial, sans-serif;
+}
+.title{
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-underline-offset: 10px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin-top: 1%;
+    display: inline-block;
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transformation 0.3s ease;
+}
+
+.btn:hover {
+    background: #cc5500;
+    
+}
+
+#featured-games {
+    padding: 50px 0;
+}
+
+.game {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.game img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.game h3 {
+    margin-top: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
